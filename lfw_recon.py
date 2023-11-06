@@ -162,22 +162,6 @@ def recon_img(img_read_path, img_write_path):
 
 if __name__ == "__main__":
     
-    pdb.set_trace()
-
-    ffhq_read_dir = '/data/renmin/dataset_face/thumbnails128x128/'
-    ffhq_write_dir = 'ffhq-'+feat_extractor+'_recon/'
-
-    for sub_d in os.listdir(ffhq_read_dir):
-        print (sub_d)
-        sub_dir = os.path.join(ffhq_read_dir, sub_d)
-        for img_fn in os.listdir(sub_dir):
-            img_read_path = os.path.join(sub_dir, img_fn)
-            img_write_path = os.path.join(ffhq_write_dir, sub_d, img_fn)
-            if not os.path.exists(os.path.join(ffhq_write_dir, sub_d)):
-                os.makedirs(os.path.join(ffhq_write_dir, sub_d))
-            recon_img(img_read_path, img_write_path)
-
-    """
     print ('reconstruct from dir')
     print ('read folder:', read_folder)
     print ('write folder:', write_folder)
@@ -187,17 +171,13 @@ if __name__ == "__main__":
     features = feat_extra_dir(read_folder)
     torch.save(features, feat_path)
     
-    pdb.set_trace()
+    #pdb.set_trace()
     
     print ('get eigen feature')
     avg_feat, eig_val, eig_feat = get_eigen_feat(features)
     
-    pdb.set_trace()
+    #pdb.set_trace()
     
-    #data=torch.load('recon_eigen/eigen_feat.pth')
-    
-    #eig_feat = data['eig_feat']
-    #avg_feat = data['avg_feat']
     
     print ('reconstrcution from eigen feature')
     for i in range(num_eigen_recon):
@@ -213,12 +193,7 @@ if __name__ == "__main__":
     
     print ('sample from noise')
     recon_from_noise(noise_recon_folder, 13233)
-    """ 
+
         
     
     
-    
-    
-    
-            
-            
