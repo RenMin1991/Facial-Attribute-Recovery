@@ -13,7 +13,10 @@ Deep neural networks have proven to be highly effective in the face recognition 
 ## Requirments
 
 python == 3.7
+
 pytorch == 1.6.0
+
 torchvision == 0.7.0
+
 bcolz == 1.2.1
 
