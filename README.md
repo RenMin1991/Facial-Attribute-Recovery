@@ -29,3 +29,4 @@ tqdm
 `lfw_recon.py ` to decode facial image.
 
 Pretrained model can be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1pcF7fq4JtoQQzraq3TR5-w?pwd=rtwp), code: rtwp
+or [Google Drive](https://drive.google.com/drive/folders/1mDMeZgqTiaoOvDN6DhFQ7t45IOVAV5jX?usp=sharing)
