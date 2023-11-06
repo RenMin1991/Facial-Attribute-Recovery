@@ -20,3 +20,5 @@ torchvision == 0.7.0
 
 bcolz == 1.2.1
 
+tqdm
+
