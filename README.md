@@ -22,3 +22,10 @@ bcolz == 1.2.1
 
 tqdm
 
+
+
+## Facial image Decoding
+
+`lfw_recon.py ` to decode facial image.
+
+Pretrained model can be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1pcF7fq4JtoQQzraq3TR5-w?pwd=rtwp), code: rtwp
