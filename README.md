@@ -30,3 +30,17 @@ tqdm
 
 Pretrained model can be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1pcF7fq4JtoQQzraq3TR5-w?pwd=rtwp), code: rtwp
 or [Google Drive](https://drive.google.com/drive/folders/1mDMeZgqTiaoOvDN6DhFQ7t45IOVAV5jX?usp=sharing)
+
+# Citation
+If you find our work useful in your research, please consider to cite:
+
+    @ARTICLE{10587012,
+    author={Ren, Min and Zhu, Yuhao and Wang, Yunlong and Huang, Yongzhen and Sun, Zhenan},
+    journal={IEEE Transactions on Information Forensics and Security}, 
+    title={Understanding Deep Face Representation via Attribute Recovery}, 
+    year={2024},
+    volume={},
+    number={},
+    pages={1-1},
+    keywords={Face recognition;Facial features;Deep learning;Analytical models;Visualization;Nose;Uncertainty;Interpretability;face recognition;facial attribute;counterfactual sample},
+    doi={10.1109/TIFS.2024.3424291}}
